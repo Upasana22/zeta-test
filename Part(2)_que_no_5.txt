@@ -1,0 +1,8 @@
+5. Shell script to take third most CPU & Memory consuming process, this should output to output file with the following properties
+•	Process Name 
+•	% CPU  used 
+•	% Memory used  
+•	PORT 
+•	PID
+
+Ans: 	ps aux | sort -nrk 3,3 | head -n 3
